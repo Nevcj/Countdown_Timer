@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.timer input {
+    width: 60px;
+    margin: 0 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.timer button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timer button:hover {
+    background-color: #0056b3;
+}
+
+#countdown {
+    font-size: 24px;
+    margin-top: 20px;
+}
